@@ -7,43 +7,88 @@ export default function Politica() {
       <div className={styles.container} >
         <div className={styles.containerHeader} >
           <section>
-            <h1>Política de Privacidade</h1>
-            <p>É importante esclarecer que dados pessoais são considerados como: todas as informações que possam ser utilizadas para identificar alguma pessoa. Estes dados, podem ser considerados sensíveis, tais como: convicção religiosa, saúde ou à vida sexual, origem racial ou étnica, opinião política, dado genético ou biométrico, filiação a sindicato ou a organização de caráter religioso, filosófico ou político.</p>
-            <br /><h2>SEÇÃO I - INFORMAÇÕES GERAIS</h2><br />
-            <p>Nesta <strong>política de privacidade</strong> será informado a maneira que ocorre o tratamento dos dados pessoais das pessoas que acessam o site georgelucas.dev informando assim, de forma transparente quais são os dados, qual o intuito da coleta e a maneira que os visitantes podem controlar ou deletar suas informações.</p>
-            <p>Este texto foi criado de acordo com a lei de Proteção de Dados Pessoais (Lei /18), o Marco Civil da Internet  (Lei 12.965 /14) e também o Regulamento da UE n. 2016/6790. Vale ressaltar que, este texto poderá sofrer alterações por conta de eventuais atualizações normativas.</p>
-            <p>Informamos que toda e qualquer informação pessoal coletada por por nosso website georgelucas.dev , será utilizada para melhorar a sua experiência ao navegar em nosso website, visando desta maneira que sua visita se torne mais vantajosa e assertiva.</p>
-            <p>A confidencialidade das informações pessoais dos usuários do site georgelucas.dev é de suma importância para nossa equipe, por este motivo, buscamos otimizar continuamente todos os processos internos, utilizando o <a href='https://politicaprivacidade.com.br/gerador-de-politica-de-privacidade-gerar-criar-online'>gerador de politica de privacidade</a> de forma clara, para mante-los em segurança e de acordo com todas as normas impostas.</p>
-            <br /><h2>SEÇÃO II - COLETA DOS DADOS</h2><br />
-            <p>Os dados pessoais dos visitantes podem ser coletados quando:</p>
-            <p><strong>II.I</strong> - O  indivíduo realiza a criação de um cadastro no site georgelucas.dev e com base nisso podem ser solicitados dados como: email, nome, cidade, telefone, etc.</p>
-            <p><strong>II.II</strong> - O indivíduo navega nas páginas de nosso site georgelucas.dev e neste caso, podem ser coletados dados como: palavras-chaves de origem do buscador, comentários, navegador utilizado, IP da rede, etc.</p>
-            <p><strong>II.III</strong> - Por meio de terceiros, tais como: Google e/ou Facebook, sendo que, no momento de logar em um destes sites é autorizado diretamente pelo terceiro.</p>
-            <br /><h2>SEÇÃO III - ACEITE</h2><br />
-            <p>A partir do momento da utilização do website georgelucas.dev pressupõe que o usuário aceitou a <strong>política de privacidade.</strong> Desta forma reservamos ao direito de modificar esta política sem que seja realizado um aviso prévio. Por este motivo, nós recomendamos que os usuários realizem uma consulta regularmente a nossa política, para que desta forma, se mantenham sempre atualizados de possíveis alterações, caso seja necessário é possível entrar em contato através de nosso e-mail:contato@georgelucas.dev informando suas dúvidas.</p>
-            <p>O desenvolvedor poderá coletar informações pessoais do usuário que acessa o site, tais como nome, e-mail, número de telefone fixo e/ou celular, endereço, data de nascimento, ip e/ou outros dados. Na grande maioria das vezes, esses dados são utilizados para ativar a função de geotarget (exibir determinados conteúdos de acordo com a localização) e também filtrando por tipo de usuário (analisando a necessidade de cada um).</p>
-            <br /><h2>SEÇÃO IV - VINCULO A SITES EXTERNOS</h2><br />
-            <p>O site georgelucas.dev pode conter vinculo com sites externos, estes que podem possuir ferramentas e/ou informações proveitosas para os usuários. Esta <strong>política de privacidade</strong> não é empregada aos sites externos, se for do interesse do usuário, o mesmo deverá acessar a <strong>política de privacidade</strong> do site em questão para ter conhecimento dos detalhes.</p>
-            <br /><h2>COOKIES E WEB BEACONS</h2><br />
-            <p>O site usa cookies com o objetivo de armazenar informações, como por exemplo, as preferências do publico que acessa um determinado site, esses cookies podem ser coletados por meio de um mero popup ou até mesmo uma integração com demais serviços.</p>
-            <p>Você como usuário do website georgelucas.dev possui a total autonomia de desativar os cookies, basta acessar a configuração do seu navegador de preferência e realizar a modificação, ou caso tenha, poderá utilizar um antivirus que faça essa configuração diretamente. Vale ressaltar que, essa modificação poderá influenciar em como você navega em nosso site e em outros sites. Este fato ocorre, porque determinas programações necessitam da utilização de cookies para funcionarem corretamente, tais como os sites que necessitem de login em determinada área restrita.</p>
-            <p>As empresas que anunciam em nosso website, também podem possuir um sistema que recolhe os cookies e ou web beacons, sempre com o intuito de exibir melhores publicidades, ofertas e produtos para o usuário final. Tornando assim, a publicidade mais assertiva e eficiente para ambas as partes.</p>
-            <br /><h2>COOKIE DOUBLECLICK DART</h2><br />
-            <p>O Google faz uso de cookies DART em nosso site, a utilização deles é importante para que a empresa possa exibir anúncios para o usuário levando em conta outros sites que a pessoa navegou anteriormente na internet, vale destacar que os usuários podem realizar a desativação de tais cookies acessando diretamente a <strong>política de privacidade</strong> do Google.</p>
-            <br /><h2>COOKIES POR E-MAIL</h2><br />
-            <p>No caso de envio de newsletters ou até mesmo envio de avisos por e-mail os cookies podem ser utilizados para direcionar um conteúdo mais adequado ao usuário final, com o intuito de melhorar a experiência de quem está lendo o e-mail, vale ressaltar que cada provedor de email possui suas diretrizes, como por exemplo ao acessar o site do <a href='http://www.avantitecnologiati.com.br'>rastreamento correios</a> você deverá respeitar suas devidas políticas.</p>
-            <br /><h2>OS ANÚNCIOS</h2><br />
-            <p>Visando o pagamento de custos de manutenção do site, são exibidos anúncios em nosso site, durante a exibição destes é coletado algumas informações, tais como: IP, ISP , Browser, Tempo de permanência.</p>
-            <br /><h2>ANÁLISE DE DADOS</h2><br />
-            <p>A nossa empresa utiliza  o serviço do Google Analytics para mensurar, calcular e analisar todo o tráfego que recebe no site georgelucas.dev esta ferramenta coleta e processa os dados de acordo com a sua própria política, partindo do pressuposto da aceitação do usuário final, a política está disponível nos links abaixo:</p>
-            <br /> <ul>
-              <li> <a href="https://google.com/intl/pt-BR/policies/privacy/partners/" >https://google.com/intl/pt-BR/policies/privacy/partners/</a></li>
-              <li> <a href="https://policies.google.com/privacy" >https://policies.google.com/privacy</a> </li>
-              <li> <a href="https://policies.google.com/terms" >https://policies.google.com/terms</a> </li>
-            </ul><br />
-            <p>Vale ressaltar que no caso do Google ou Parceiros deste, utilizarem os dados coletados, a responsabilidade é única e exclusiva destes, desta forma o site georgelucas.dev se isenta de qualquer responsabilidade por consequência do uso dos dados.</p>
-            <br /><h2>ATUALIZAÇÃO</h2><br />
-            <p>Essa <strong>politica de privacidade</strong> obteve sua última atualização na data de 26/04/2022, podendo ser modificada a qualquer momento, sem aviso prévio.</p>
+            <br/>
+            <h1><strong><center>Política de Privacidade</center></strong></h1>
+            <br/>
+               Esta página é usada para informar os visitantes do site e usuários de aplicativos móveis em relação às nossas políticas com a coleta, uso e divulgação de Informações Pessoais se alguém decidir usar nosso Serviço.
+
+              Se você optar por usar nosso Serviço, concorda com a coleta e uso de informações em relação a esta política. As Informações Pessoais que coletamos são usadas para fornecer e melhorar o Serviço. Não usaremos ou compartilharemos suas informações com ninguém, exceto conforme descrito nesta Política de Privacidade.
+
+              Os termos usados nesta Política de Privacidade têm os mesmos significados que em nossos Termos e Condições, que podem ser acessados no George Lucas Dev, a menos que definido de outra forma nesta Política de Privacidade.
+              <br/>
+              <br/>
+              <strong><center>Coleta e uso de informações</center></strong>
+              <br/>
+              <br/>
+              Para uma melhor experiência, ao usar nosso Serviço, podemos exigir que você nos forneça certas informações de identificação pessoal. As informações que solicitamos serão retidas por nós e usadas conforme descrito nesta política de privacidade.
+
+              O aplicativo usa serviços de terceiros que podem coletar informações usadas para identificá-lo.
+
+              Links para políticas de privacidade de provedores de serviços terceirizados usados por nossos aplicativos:
+              <br/>
+              <br/>
+              <ul>
+                <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noreferrer noopener">Serviços do Google Play</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noreferrer noopener">AdMob</a></li>
+                <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noreferrer noopener">Anúncios unitários</a></li>
+                <li><a href="https://play.google.com/about/developer-distribution-agreement.html" target="_blank" rel="noreferrer noopener">Contrato de distribuição do desenvolvedor do Google</a></li>
+              </ul>
+              *A interface Unity Ads apresenta aos jogadores uma política de privacidade e um diálogo para desativar a segmentação personalizada de anúncios.
+              <br/> <br/>
+            <strong><center>Dados de registro</center></strong>
+            <br/> <br/>
+
+            Queremos informá-lo que sempre que você usar nosso Serviço, em caso de erro no aplicativo, coletamos dados e informações (através de produtos de terceiros) em seu telefone chamado Log Data. Esses Dados de Registro podem incluir informações como o endereço do Protocolo de Internet (“IP”) do seu dispositivo, nome do dispositivo, versão do sistema operacional, a configuração do aplicativo ao utilizar nosso Serviço, a hora e a data de seu uso do Serviço e outras estatísticas .
+            <br/> <br/>
+            <strong><center>Cookies</center></strong>
+            <br/> <br/>
+          Cookies são arquivos com pequena quantidade de dados que é comumente usado como um identificador único anônimo. Estes são enviados para o seu navegador a partir do site que você visita e são armazenados na memória interna do seu dispositivo.
+
+          Este Serviço não usa esses “cookies” explicitamente. No entanto, o aplicativo pode usar código de terceiros e bibliotecas que usam “cookies” para coletar informações e melhorar seus serviços. Você tem a opção de aceitar ou recusar esses cookies e saber quando um cookie está sendo enviado ao seu dispositivo. Se você optar por recusar nossos cookies, talvez não consiga usar algumas partes deste Serviço.
+          <br/> <br/>
+          <strong><center>Provedores de serviço</center></strong>
+          <br/> <br/>
+          Podemos empregar empresas e indivíduos terceirizados devido aos seguintes motivos:
+          <br/> <br/>
+            <ul>
+              <li>Para facilitar nosso Serviço;</li>
+              <li>Para fornecer o Serviço em nosso nome;</li>
+              <li>Para executar serviços relacionados ao Serviço; ou</li>
+              <li>Para nos ajudar a analisar como nosso Serviço é usado.</li>
+            </ul>
+          Queremos informar aos usuários deste Serviço que esses terceiros têm acesso às suas Informações Pessoais. O motivo é realizar as tarefas atribuídas a eles em nosso nome. No entanto, eles são obrigados a não divulgar ou usar as informações para qualquer outra finalidade.
+          <br/> <br/>
+          <strong><center>Segurança</center></strong>
+          <br/> <br/>
+          Valorizamos sua confiança em nos fornecer suas informações pessoais, portanto, estamos nos esforçando para usar meios comercialmente aceitáveis de protegê-las. Mas lembre-se que nenhum método de transmissão pela internet, ou método de armazenamento eletrônico é 100% seguro e confiável, e não podemos garantir sua segurança absoluta.
+          <br/> <br/>
+          <strong><center>Links para outros sites</center></strong>
+          <br/> <br/>
+          Este Serviço pode conter links para outros sites. Se você clicar em um link de terceiros, será direcionado para esse site. Observe que esses sites externos não são operados por nós. Portanto, recomendamos que você revise a Política de Privacidade desses sites. Não temos controle e não assumimos responsabilidade pelo conteúdo, políticas de privacidade ou práticas de quaisquer sites ou serviços de terceiros.
+          <br/> <br/>
+          <strong><center>Privacidade infantil para aplicativos</center></strong>
+          <br/> <br/>
+          Nossos aplicativos (não Jogos) não se dirigem a menores de 13 anos. Não coletamos intencionalmente informações de identificação pessoal de crianças menores de 13 anos. No caso de descobrirmos que uma criança menor de 13 anos nos forneceu informações pessoais, as excluímos imediatamente de nossos servidores. Se você é pai ou responsável e está ciente de que seu filho nos forneceu informações pessoais, entre em contato conosco para que possamos tomar as medidas necessárias.
+          <br/> <br/>
+          <strong><center>Privacidade infantil para jogos</center></strong>
+          <br/>
+          Nossos Jogos (não aplicativos). Não coletamos intencionalmente informações de identificação pessoal de crianças
+           menores de 13 anos. No caso de descobrirmos que uma criança menor de 13 anos nos forneceu informações pessoais
+           , as excluímos imediatamente de nossos servidores. Se você é pai ou responsável e está ciente de que seu filho
+            nos forneceu informações pessoais, entre em contato conosco para que possamos tomar as medidas necessárias.
+          <br/> <br/>
+          <strong><center>Alterações nesta Política de Privacidade</center></strong>
+          <br/> <br/>
+          Podemos atualizar nossa Política de Privacidade de tempos em tempos. Assim, recomendamos que você revise esta página periodicamente para quaisquer alterações. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página. Essas alterações entram em vigor imediatamente após serem publicadas nesta página.
+          <br/> <br/>
+          <strong><center>Contate-nos</center></strong>
+          <br/> <br/>
+          Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite em nos contatar.
+          <br/> <br/>
+          Email <strong>contato@georgelucas.dev</strong>
+          <br/> <br/>
+          <p>Nossa <strong>Politica de Privacidade e Segurança de dados</strong> obteve sua última atualização na data de 26/04/2022, podendo ser modificada a qualquer momento, sem aviso prévio.</p>
+          <br/> <br/>
           </section>
         </div>
       </div>
