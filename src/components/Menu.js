@@ -1,6 +1,7 @@
-import { Nav, NavLink, NavItem, NavbarBrand, NavbarToggler, Collapse, Navbar } from 'reactstrap';
+import { Nav, NavLink, NavItem, NavbarBrand, NavbarToggler, Collapse, Navbar, Image } from 'reactstrap';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '../img/logo.png';
 
 export default function Menu() {
     return (
@@ -11,7 +12,7 @@ export default function Menu() {
                 light
             >
                 <NavbarBrand href="/">
-                    GG Dev
+                <img src={logo} height="40" width="40"/>
                 </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck() { }} />
                 <Collapse navbar>
