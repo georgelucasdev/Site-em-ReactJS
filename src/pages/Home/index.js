@@ -5,7 +5,9 @@ export default function Home() {
     <>
       <div className={styles.container} >
         <div>
-          <h1 className={styles.h1} >Empresa</h1>
+          <h1 className={styles.h1}>
+            Escrevendo
+          </h1>
         </div>
         <section className={styles.ctaText}>
           ...
