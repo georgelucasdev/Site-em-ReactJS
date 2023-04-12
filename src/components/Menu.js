@@ -26,6 +26,11 @@ export default function Menu() {
                             </NavLink>
                         </NavItem>
                         <NavItem>
+                            <NavLink href="Projetos">
+                            Projetos
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
                             <NavLink href="Contato">
                                 Contato
                             </NavLink>

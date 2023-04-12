@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+import styles from '../../global.module.scss'
 import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaReact, FaNode, } from 'react-icons/fa';
 import { SiNextdotjs } from 'react-icons/si';
 
@@ -8,7 +8,13 @@ export default function Sobre() {
         <main className={styles.container} >
           <div className={styles.containerHeader} >
             <section>
-              <h1><center>George Lucas</center></h1>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <h1><strong><center>George Lucas</center></strong></h1>
+              <br/>
+              <br/>
               <p>
                 <center>
               Em constante evolução em desenvolvimento web para front end; focado em criar novas experiências

@@ -1,71 +1,96 @@
-.container {
+.container{
     display: block;
-
 }
 
-.containerHeader {
-    min-height: calc(100vh - 6rem);
+.containerHeader{
+    min-height: calc(100vh - 20rem);
     margin: 0 auto;
     max-width: 1120px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
-    img {
+    img{
         max-width: 490px;
     }
 }
 
-.ctaText {
+.ctaText{
     max-width: 600px;
+    text-align: center;
 
-    h1 {
+    h1{
         font-size: 3rem;
         font-weight: 900;
         margin: 2.5rem 0;
         color: var(--branco);
+        text-align: center;
     }
 
-    p {
+    h2{
+        font-size: 2rem;
+        color: var(--branco);
+        text-align: center;
+    }
+
+    p{
         font-size: 1rem;
         line-height: 2.25rem;
-        color: var(--branco);
+        color: var(--preto);
         white-space: pre-wrap;
+        align-items: center;
     }
 
-    a svg {
+    a svg{
         margin-top: 15px;
 
     }
-
-    svg {
+    svg{
         color: var(--branco);
         cursor: pointer;
         margin-left: 15px;
     }
 
-    svg:hover {
+    svg:hover{
+        color: var(--azul-900);
+    }
+
+    li{
         color: var(--azul-900);
     }
 }
 
-@media (max-width: 1110px) {
-    .containerHeader {
+@media (max-width: 1110px){
+    .containerHeader{
         flex-direction: column;
         align-items: center;
         padding: 0.5rem 1rem;
 
-        img {
+        img{
             max-width: 390px;
             padding: 1.5rem 0;
         }
     }
 
-    .ctaText {
-        h1 {
+    .ctaText{
+        h1{
             font-size: 2.5rem;
         }
     }
 
+}
+
+.footer{
+    background-color: var(--cinza-900);
+    background: var(--cinza-900);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.footertext{
+    color: var(--branco);
 }
