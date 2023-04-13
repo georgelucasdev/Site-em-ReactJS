@@ -8,8 +8,8 @@ export default function Home() {
             <br/>
           <div>
             <h1 className={styles.h1}><center>
-              
-              </center></h1>
+
+          </center></h1>
           </div>
           <br/>
           <br/>
