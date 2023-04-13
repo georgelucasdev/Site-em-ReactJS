@@ -94,3 +94,16 @@
 .footertext{
     color: var(--branco);
 }
+
+.productlist{
+    position: relative;
+}
+
+.productcard{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.productimg{
+    position: static;
+}
