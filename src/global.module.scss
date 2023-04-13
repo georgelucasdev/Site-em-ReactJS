@@ -1,4 +1,5 @@
 .container{
+    overflow-x: auto;
     display: block;
 }
 
@@ -81,7 +82,8 @@
     }
 
 }
-
+/*****************************************/
+  //ANCHOR - roda pé
 .footer{
     background-color: var(--cinza-900);
     background: var(--cinza-900);
@@ -94,9 +96,40 @@
 .footertext{
     color: var(--branco);
 }
+/*****************************************/
 
+
+
+/*****************************************/
+  //ANCHOR - Botão
+.botao {
+    background-color: #4CAF50; /* cor de fundo */
+    border: none; /* sem borda */
+    color: white; /* cor do texto */
+    padding: 12px 24px; /* preenchimento interno */
+    text-align: center; /* centralizar texto */
+    text-decoration: none; /* sem decoração */
+    display: inline-block; /* exibição em linha */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 4px 2px; /* margem externa */
+    cursor: pointer; /* cursor de mão ao passar */
+    border-radius: 8px; /* bordas arredondadas */
+    transition-duration: 0.4s; /* duração da transição */
+  }
+  
+  .botao:hover {
+    background-color: #3e8e41; /* cor de fundo ao passar */
+    color: white; /* cor do texto ao passar */
+  }
+/******************************************/
+
+
+/****************************************/
+  //ANCHOR - Produtos Lista, Card e Img
 .productlist{
-    position: relative;
+    display: block;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .productcard{
