@@ -20,10 +20,10 @@ export default function ProjetosComponent() {
   return (
     <center>
     <div className={styles.productlist}>
-      <button className={styles.botao} onClick={handleButton1Click}>Concluidos</button>
-      <button className={styles.botao} onClick={handleButton2Click}>Ativos</button>
+      <button className={styles.botaoconcluidos} onClick={handleButton1Click}>Concluidos</button>
+      <button className={styles.botaoativos} onClick={handleButton2Click}>Ativos</button>
       {showInfo1 && <div><Concluidos/></div>}
-      {showInfo2 && <div><Ativos/></div>}
+
     </div>
     </center>
   );
