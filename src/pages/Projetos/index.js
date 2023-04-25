@@ -1,5 +1,4 @@
 import styles from '../../global.module.scss'
-import  ProjetosComponent from '../../components/Projetos'
 import React, { useState } from 'react';
 import Concluidos from '../../components/concluidos';
 import Ativos from '../../components/ativos';

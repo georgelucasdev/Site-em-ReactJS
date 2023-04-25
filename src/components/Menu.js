@@ -1,11 +1,15 @@
 import { 
-    Navbar,
-    NavbarBrand,
-    NavbarToggler,
     Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
     Nav,
     NavItem,
-    NavLink, } from 'reactstrap';
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem, } from 'reactstrap';
 import React, { useState } from "react";
 //import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -34,9 +38,28 @@ export default function Menu() {
             <NavItem>
                 <NavLink href="/Sobre">Sobre</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="/Politica-de-privacidade">Politica de Privacidade</NavLink>
-            </NavItem>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Termos e Outros
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="/politica-de-privacidade">Politica de Privacidade</NavLink>
+                    </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="/termos-e-condicoes">Termos e Condições</NavLink>
+                    </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="/politica-de-reembolso">Política de Reembolso</NavLink>
+                    </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             </Nav>
         </Collapse>
         </Navbar>
