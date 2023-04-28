@@ -30,6 +30,13 @@
     flex-direction: row;
 }
 
+.containerRedes{
+    max-width: '350px';
+    max-height: '350px';
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
 .containerHeader{
     min-height: calc(100vh - 20rem);
     margin: 0 auto;

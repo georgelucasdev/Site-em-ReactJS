@@ -49,18 +49,9 @@ export default function Sobre() {
               <br />
               <br />
               <center>
-              <p>Quer conversar? essas são minhas redes sociais.</p>
+              <p>Nossas ultimas postagens aqui</p>
               <br />
-              <a href="https://www.facebook.com/Lucasc4nd1d0">
-                <FaFacebook size={40} />
-              </a>
-              <a href="https://www.instagram.com/georgelucasdev">
-                <FaInstagram size={40} />
-              </a>
-              <a href="https://www.linkedin.com/in/george-lucas-candido-da-silva-65585b179/">
-                <FaLinkedin size={40} />
-              </a>
-              <a href="https://twitter.com/LucasC4ndid0">
+              <a href="https://twitter.com/georgelucasdev">
                 <FaTwitter size={40} />
               </a>
               </center>
