@@ -30,6 +30,19 @@
     flex-direction: row;
 }
 
+.bb{
+    justify-content: center;
+    align-items: center;
+}
+
+.certificacao{
+    justify-content: center;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px 8px;
+    padding: 20px 10px;
+}
+
 .containerRedes{
     max-width: '350px';
     max-height: '350px';
