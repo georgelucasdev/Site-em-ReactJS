@@ -1,6 +1,8 @@
 import styles from '../../global.module.scss'
 import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter, FaReact, FaNode, } from 'react-icons/fa';
-import { SiNextdotjs, SiKotlin, SiFlutter, SiJavascript } from 'react-icons/si';
+import { SiNextdotjs, SiPython, SiFlutter, SiJavascript } from 'react-icons/si';
+import python from '../../img/python-essentials-1.1.png'
+import React from 'react';
 
 export default function Sobre() {
   return (
@@ -10,18 +12,16 @@ export default function Sobre() {
             <section>
               <br/>
               <br/>
-              <br/>
-              <br/>
               <h1><strong><center>George Lucas</center></strong></h1>
               <br/>
               <br/>
               <p>
                 <center>
-              Em constante evolução em desenvolvimento web para front end; focado em criar novas experiências
-               para o usuário com as tecnologias e frameworks mais utilizadas do mercado :
-               ReactJS, JavaScript, Flutter, ReactNative, Kotlin .
-               De caráter honesto, busca o estímulo, organização, compartilhamento de conhecimento e o
-                contínuo desenvolvimento pessoal e profissional do grupo de trabalho.
+                Em constante evolução em desenvolvimento web e mobile; focado em criar novas experiências
+                para o usuário com as tecnologias e frameworks mais utilizadas do mercado :
+                ReactJS, JavaScript, Flutter, ReactNative, Python .
+                De caráter honesto, busca o estímulo, organização, compartilhamento de conhecimento e o
+                  contínuo desenvolvimento pessoal e profissional do grupo de trabalho.
                 </center>
               </p>
               <br />
@@ -37,7 +37,7 @@ export default function Sobre() {
                 <a><SiNextdotjs size={40} /></a>
               </section>
               <section className={styles.sectionItens}>
-                <a><SiKotlin size={40} /></a>
+                <a><SiPython size={40} /></a>
               </section>
               <section className={styles.sectionItens}>
                 <a><SiFlutter size={40} /></a>
@@ -47,14 +47,20 @@ export default function Sobre() {
               </section>
               </div>
               <br />
-              <br />
-              <center>
-              <p>Nossas ultimas postagens aqui</p>
-              <br />
-              <a href="https://twitter.com/georgelucasdev">
-                <FaTwitter size={40} />
-              </a>
-              </center>
+              <br/>
+              <br/>
+              <br/>
+              <div className={styles.container}>
+              <h3><strong><center>
+                Certificações
+                </center></strong></h3>
+                <br />
+              <section className={styles.sectionItens}>
+              <center><a href="https://www.credly.com/badges/4346d242-d25a-4490-ac73-571979364c08/public_url" target="_blank" rel="noreferrer">
+                <img src={python} size={40} />
+                </a></center>
+              </section>
+              </div>
             </section>
           </div>
         </main>
