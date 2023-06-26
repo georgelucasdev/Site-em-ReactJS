@@ -5,6 +5,7 @@ import Sobre from './pages/Sobre'
 import Projetos from './pages/Projetos'
 import Reembolso from './pages/politica-de-reembolso'
 import Termos from './pages/termos-e-condicoes'
+import Enigmas from './pages/Enigmas-da-escuridao'
 
 function RoutesApp() {
     return (
@@ -13,6 +14,7 @@ function RoutesApp() {
                 <Route exact path="/" element={<Home/>} />
                 <Route path="politica-de-privacidade" element={<Politica/>} />
                 <Route path="Sobre" element={<Sobre/>} />
+                <Route path="Enigmas-da-Escuridao" element={<Enigmas/>} />
                 <Route path="Projetos" element={<Projetos/>} />
                 <Route path="politica-de-reembolso" element={<Reembolso/>} />
                 <Route path="termos-e-condicoes" element={<Termos/>} />

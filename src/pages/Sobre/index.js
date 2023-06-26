@@ -17,11 +17,11 @@ export default function Sobre() {
             <br />
             <p>
               <center>
-                Em constante evolução em desenvolvimento web e mobile; focado em criar novas experiências
-                para o usuário com as tecnologias e frameworks mais utilizadas do mercado :
-                ReactJS, JavaScript, Flutter, ReactNative, Python .
-                De caráter honesto, busca o estímulo, organização, compartilhamento de conhecimento e o
-                contínuo desenvolvimento pessoal e profissional do grupo de trabalho.
+              Olá, sou George Lucas, um desenvolvedor de jogos com experiência e paixão pela área de hardware. Tenho 31 anos e trabalho atualmente como desenvolvedor de jogos, sendo que alguns dos meus jogos já alcançaram mais de 10 mil downloads. Atualmente, estou na fase finalização de um jogo para computador.
+Desde os meus 12 anos, venho trabalhando com hardware e adquirindo conhecimentos valiosos nessa área. Iniciei minha jornada como pseudo técnico em uma lan house e continuo buscando aprimorar minhas habilidades ao estudar para obter meu diploma técnico.
+Além disso, tenho interesse em projetos sociais e busco contribuir para a comunidade. Desenvolvi um aplicativo sem anúncios que auxilia crianças a melhorarem a pronúncia e a oratória, com o objetivo de tornar a educação mais acessível.
+Estou animado com a oportunidade de fazer a diferença em sua empresa. Tenho habilidades sólidas e estou sempre em busca de desafios que me permitam crescer profissionalmente. Seria um prazer discutir como posso contribuir para o sucesso da sua empresa.
+Agradeço a atenção e estou à disposição para fornecer mais informações.
               </center>
             </p>
             <br />

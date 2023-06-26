@@ -60,6 +60,9 @@ export default function Menu() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+                <NavLink href="/Enigmas-da-escuridao">Enigmas da Escuridão</NavLink>
+            </NavItem>
             </Nav>
         </Collapse>
         </Navbar>
