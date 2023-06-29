@@ -65,6 +65,52 @@
     }
 }
 
+.cardContainer1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+  }
+  .cardContainer2 {
+    display: flex;
+    justify-content: start;
+    margin-bottom: -5rem;
+    margin-left: 2rem;
+  }
+  .cardContainer3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    margin-bottom: -5rem;
+    margin-right: 2rem;
+  }
+  .cardContainer31 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cardContent {
+    display: flex;
+    align-items: center;
+  }
+  .cardContent2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .cardtext1 {
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+  .cardtext2 {
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+
 .ctaText{
     max-width: 600px;
     text-align: center;
