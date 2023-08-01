@@ -6,6 +6,7 @@ import Projetos from './pages/Projetos'
 import Reembolso from './pages/politica-de-reembolso'
 import Termos from './pages/termos-e-condicoes'
 import Enigmas from './pages/Enigmas-da-escuridao'
+import UpdateIA from './pages/updateIA'
 
 function RoutesApp() {
     return (
@@ -18,6 +19,7 @@ function RoutesApp() {
                 <Route path="Projetos" element={<Projetos/>} />
                 <Route path="politica-de-reembolso" element={<Reembolso/>} />
                 <Route path="termos-e-condicoes" element={<Termos/>} />
+                <Route path="updateIA" element={<UpdateIA/>} />
             </Routes>
         </BrowserRouter>
     )
