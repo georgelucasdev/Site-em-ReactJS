@@ -24,9 +24,7 @@ export default function Termos() {
              </div>
             {/* coleta */}
              <div>
-            <h3><>
-            Coleta de informações:
-            </></h3>
+            <h3>Coleta de informações:</h3>
              <br/>
              <p>
             Os apps “Inteligência Artificial, LoooFilmes“ coleta os seguintes tipos de informações pessoais de seus usuários:

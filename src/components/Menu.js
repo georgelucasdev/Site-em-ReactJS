@@ -11,7 +11,6 @@ import {
     DropdownMenu,
     DropdownItem, } from 'reactstrap';
 import React, { useState } from "react";
-//import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../img/logo.png';
 
@@ -22,9 +21,10 @@ export default function Menu() {
 
     const toggle = () => setIsOpen(!isOpen);
 
+
     return (
         <>
-        <Navbar color="light" light expand="md">
+        <Navbar color="navbar navbar-dark bg-dark" light expand="md" >
         <NavbarBrand href="/"><img src={logo} height="40" width="40"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -32,19 +32,57 @@ export default function Menu() {
             <NavItem>
                 <NavLink href="/">Home</NavLink>
             </NavItem>
-            <NavItem>
-                <NavLink href="/projetos">Projetos</NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink href="/Sobre">Sobre</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar black>
               <DropdownToggle nav caret>
-                Termos e Outros
+                Aplicativos
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu right dark>
+                <DropdownItem>
+                    <NavItem >
+                        <NavLink href="https://play.google.com/store/apps/details?id=com.chat.gptbr">Inteligência Artificial</NavLink>
+                    </NavItem>
+                </DropdownItem>
                 <DropdownItem>
                     <NavItem>
+                        <NavLink href="https://play.google.com/store/apps/details?id=com.aprendizado.escola">Pré-Escola: Leitura Mágica</NavLink>
+                    </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar black>
+              <DropdownToggle nav caret >
+                Jogos
+              </DropdownToggle>
+              <DropdownMenu right dark>
+                <DropdownItem>
+                    <NavItem >
+                        <NavLink href="https://play.google.com/store/apps/details?id=com.georgelucas.seashark">BeBê Tubarão: Aventuras</NavLink>
+                    </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="https://play.google.com/store/apps/details?id=com.glapp.house">Pinte Casas</NavLink>
+                    </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="https://play.google.com/store/apps/details?id=com.domino.duelo">Dominó: Duelo Online</NavLink>
+                    </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavItem>
+                        <NavLink href="/Enigmas-da-escuridao">Enigmas da Escuridão</NavLink>
+                    </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret >
+                Outros
+              </DropdownToggle>
+              <DropdownMenu right dark>
+                <DropdownItem>
+                    <NavItem >
                         <NavLink href="/politica-de-privacidade">Politica de Privacidade</NavLink>
                     </NavItem>
                 </DropdownItem>
@@ -60,9 +98,6 @@ export default function Menu() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <NavItem>
-                <NavLink href="/Enigmas-da-escuridao">Enigmas da Escuridão</NavLink>
-            </NavItem>
             </Nav>
         </Collapse>
         </Navbar>

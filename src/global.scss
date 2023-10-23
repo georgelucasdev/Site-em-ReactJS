@@ -6,6 +6,7 @@
 
 :root {
   --branco: #FFF;
+  --black: #000000;
   --cinza-100: #AFAFAF;
   --cinza-200: #525252;
   --cinza-700: #15171b;
@@ -33,8 +34,9 @@
 }
 
 body {
-  background: var(--cinza-900);
-  background-color: var(--cinza-100);
+  background: var(--branco);
+  //background: var(--cinza-200);
+  background-color: var(--black);
 }
 
 body,
