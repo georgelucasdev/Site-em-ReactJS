@@ -98,6 +98,9 @@ export default function Menu() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+            <NavLink href="https://precandidato.georgelucas.dev">Pré-Candidato George Lucas</NavLink>
+            </NavItem>
             </Nav>
         </Collapse>
         </Navbar>

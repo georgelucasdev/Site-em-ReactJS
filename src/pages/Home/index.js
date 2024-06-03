@@ -97,7 +97,7 @@ return(
                     <div style={{marginLeft: '3rem' , marginRight: '3rem'}}>
                       <iframe
                         title="Postagem do Instagram"
-                        srcDoc='<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/georgelucasdev/" data-instgrm-version="13"></blockquote> <script async src="//www.instagram.com/embed.js"></script>'
+                        srcDoc='<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/georgelucasnovo/" data-instgrm-version="13"></blockquote> <script async src="//www.instagram.com/embed.js"></script>'
                         width="340"
                         height="450"
                         allowtransparency="true"
