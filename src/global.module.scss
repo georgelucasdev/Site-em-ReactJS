@@ -4,12 +4,14 @@
     color:#ece7e7;
 }
 
-.container1{
+.container1 {
   overflow-x: auto;
-  color:#ece7e7;
+  color: #ece7e7;
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
+
 
 .quadrado{
     display: flex;
