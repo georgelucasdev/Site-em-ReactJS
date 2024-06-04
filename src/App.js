@@ -1,8 +1,7 @@
 // src/App.js
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import RoutesApp from './routes';
-import Popup from './components/Popup';
+
 
 function App() {
 

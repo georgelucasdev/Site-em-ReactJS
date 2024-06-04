@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../global.module.scss';
+import styles from '../../styler.css';
 import VideoPlayer1 from '../../components/VideoPlayer1';
 import VideoPlayer2 from '../../components/VideoPlayer2';
 import VideoPlayer3 from '../../components/VideoPlayer3';

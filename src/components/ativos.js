@@ -1,4 +1,4 @@
-import styles from '../global.module.scss'
+import styles from '../styler.css';
 import { Card, CardImg, CardBody, CardTitle, CardText, Row, Col} from "reactstrap";
 import ai from '../img/inteligencia.png'
 import leitura from '../img/leitura.png'

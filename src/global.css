@@ -35,7 +35,7 @@
 
 body {
   background: var(--branco);
-  //background: var(--cinza-200);
+  background: var(--cinza-200);
   background-color: var(--black);
 }
 

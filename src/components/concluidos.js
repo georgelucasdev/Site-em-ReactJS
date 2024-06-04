@@ -1,4 +1,4 @@
-import styles from '../global.module.scss'
+import styles from '../styler.css';
 import { Card, CardImg, CardBody, CardTitle, CardText, Row, Col} from "reactstrap";
 import bb from '../img/aventuras-bb.jpg'
 import fall from '../img/fallbeans.png'
