@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
+import { SiNextdotjs, SiPython, SiFlutter, SiJavascript } from 'react-icons/si';
+import { FaReact, FaNode } from 'react-icons/fa';
 import Concluidos from '../../components/concluidos';
 import Ativos from '../../components/ativos';
-import { FaReact, FaNode } from 'react-icons/fa';
-import { SiNextdotjs, SiPython, SiFlutter, SiJavascript } from 'react-icons/si';
 import ciscopython1 from '../../img/cisco-python1.png';
 import ciscopython2 from '../../img/cisco-python2.png';
-import Popup from '../../components/Popup';
-import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
     const [showInfo1, setShowInfo1] = useState(false);
@@ -22,21 +20,8 @@ export default function Home() {
         setShowInfo1(false);
     };
 
-    const [showPopup, setShowPopup] = useState(true);
-    const navigate = useNavigate();
-
-    const handleClose = () => {
-        setShowPopup(false);
-    };
-
-    const handleButtonClick = (path) => {
-        navigate(path);
-        setShowPopup(false);
-    };
-
     return (
         <>
-            {showPopup && <Popup show={showPopup} onClose={handleClose} onButtonClick={handleButtonClick} />}
             <div className="container">
                 <section>
                     <h3><strong><center></center></strong></h3>
